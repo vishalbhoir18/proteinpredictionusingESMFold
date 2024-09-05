@@ -36,12 +36,6 @@ pip install streamlit stmol py3Dmol requests biotite altair pillow
 
 4. Enter a protein sequence (up to 400 amino acids) in the sidebar and click the "Predict" button to visualize the predicted structure.
 
-## Contributing
-Contributions are welcome! If you have any suggestions or improvements, please create an issue or submit a pull request.
-
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 - This app is created with instructions provided by Chanin Nantasenamat (Data Professor). Check out his [YouTube channel](https://youtube.com/dataprofessor) for more amazing tutorials.
 - Credit: This app is inspired by [ESMFold on Hugging Face](https://huggingface.co/spaces/osanseviero/esmfold).
@@ -50,5 +44,3 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Happy coding, and may your proteins always fold correctly! 🧬✨
 ```
-
-Feel free to customize the content as needed for your specific repository. If you have any other requests or need further assistance, let me know!
