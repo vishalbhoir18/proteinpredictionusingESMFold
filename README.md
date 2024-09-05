@@ -3,15 +3,6 @@
 
 This repository contains a web application for predicting protein structures using the ESMFold model from Meta. The app is built with Python and Streamlit, providing an interactive interface for users to input protein sequences and visualize the predicted 3D structures.
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
 ## Introduction
 Protein structure prediction is a crucial task in biochemistry and molecular biology. This web app leverages the ESMFold model to predict protein structures from amino acid sequences. The app is designed to be user-friendly and educational, making it a valuable tool for students, educators, and researchers.
 
