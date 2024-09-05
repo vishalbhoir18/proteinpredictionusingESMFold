@@ -23,13 +23,13 @@ pip install streamlit stmol py3Dmol requests biotite altair pillow
 ## Usage
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/protein-structure-prediction.git
-    cd protein-structure-prediction
+    git clone https://github.com/vishalbhoir18/proteinstructurepredictionusingESMFold.git
+    cd proteinstructurepredictionusingESMFold
     ```
 
 2. Run the Streamlit app:
     ```bash
-    streamlit run app.py
+    streamlit run streamlit_app.py
     ```
 
 3. Open your web browser and go to `http://localhost:8501` to access the app.
@@ -37,7 +37,7 @@ pip install streamlit stmol py3Dmol requests biotite altair pillow
 4. Enter a protein sequence (up to 400 amino acids) in the sidebar and click the "Predict" button to visualize the predicted structure.
 
 ## Acknowledgements
-- This app is created with instructions provided by Chanin Nantasenamat (Data Professor). Check out his [YouTube channel](https://youtube.com/dataprofessor) for more amazing tutorials.
+- This app is created with instructions provided by Chanin Nantasenamat [Data Professor](https://github.com/dataprofessor)
 - Credit: This app is inspired by [ESMFold on Hugging Face](https://huggingface.co/spaces/osanseviero/esmfold).
 
 ---
