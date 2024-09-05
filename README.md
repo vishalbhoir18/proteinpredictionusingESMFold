@@ -15,7 +15,7 @@ Protein structure prediction is a crucial task in biochemistry and molecular bio
 Installation
 To run this app locally, you'll need to install the required libraries. You can do this using pip:
 
-```bash
+
 pip install streamlit stmol py3Dmol requests biotite altair pillow
 ```
 
