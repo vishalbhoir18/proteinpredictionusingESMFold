@@ -15,7 +15,7 @@ from PIL import Image
 st.markdown("""
 # Protein structure prediction using ESMFold
 
-This interactive App enable you to predict protein structure based on the ESM-2 language model.
+This interactive App enable you to predict protein structure from the amino acid sequence, based on the ESM2 large language model.
 
 """)
 
@@ -67,9 +67,9 @@ def update(sequence=txt):
     render_mol(pdb_string)
 
     # plDDT value is stored in the B-factor field
-    st.subheader('plDDT')
-    st.write('plDDT is a per-residue estimate of the confidence in prediction on a scale from 0-100. (higher the number, higher the confidance of structure predicted)')
-    st.info(f'plDDT: {b_value * 100}')
+    st.subheader('pLDDT value')
+    st.write('pLDDT is a per-residue estimate of the confidence in prediction on a scale from 0-100. (higher the number, higher the confidance of structure predicted)')
+    st.info(f'pLDDT: {b_value * 100}')
 
     st.download_button(
         label="Download PDB",
@@ -85,10 +85,11 @@ if not predict:
     st.warning('👈 Enter protein sequence data in side panel!')
 
 st.markdown("""
-*Protein structure prediction using ESMFold App © 2024 by [Vishal Bhoir](https://linktr.ee/thebioway) is licensed under CC BY-NC-SA 4.0.*
+***Found the App useful or Have a suggestion?*** Kinldy provide your valuable FEEDBACK [HERE](https://forms.gle/nuSvvnqZ3Aofmb3p7)
 
-*This is app is created with instructions provided by Chanin Nantasenamat (Data Professor) https://github.com/dataprofessor*
+*Credits:
+This app is inspired by the work done by [Chanin Nantasenamat](https://github.com/dataprofessor) & [osanseviero](https://huggingface.co/spaces/osanseviero/esmfold)*
 
-*Credit: This app is inspired by https://huggingface.co/spaces/osanseviero/esmfold*
+**Protein structure prediction using ESMFold App** © 2024 by [VISHAL BHOIR](https://linktr.ee/thebioway) is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 """)
